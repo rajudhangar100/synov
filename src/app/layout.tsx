@@ -3,8 +3,8 @@ import type { ReactNode } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
-  title: 'Zync',
-  description: 'Zync it. Gone in seconds. Share notes, links, code, or files. No sign-up. No fluff. Just Zync.',
+  title: 'Synov',
+  description: 'Synov it. Gone in seconds. Share notes, links, code, or files. No sign-up. No fluff. Just Synov.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

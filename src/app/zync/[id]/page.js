@@ -239,10 +239,10 @@ export default function DropIdPage() {
           <div className="w-full bg-white/10 rounded-2xl border border-white/20 shadow-lg p-8 flex flex-col items-center gap-4 backdrop-blur-md">
             <div className="text-4xl mb-2" style={{color:'#f472b6'}}>622</div>
             <div className="text-white text-2xl font-extrabold mb-1" style={{ fontFamily: 'Space Grotesk, Inter, sans-serif' }}>
-              Zync Expired
+              Synov Expired
             </div>
             <div className="text-white/70 text-base text-center max-w-xs" style={{ fontFamily: 'Space Grotesk, Inter, sans-serif' }}>
-              Sorry, this Zync is no longer available. Zyncs automatically expire after their set time for privacy and security.
+              Sorry, this Synov is no longer available. Syncs automatically expire after their set time for privacy and security.
             </div>
           </div>
         ) : drop ? (
@@ -259,7 +259,7 @@ export default function DropIdPage() {
                 const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
                 if (navigator.share) {
                   navigator.share({
-                    title: 'Check out this Zync!',
+                    title: 'Check out this Sync!',
                     url: shareUrl,
                   });
                 } else {
@@ -278,7 +278,7 @@ export default function DropIdPage() {
                 onClick={() => setShowReply(v => !v)}
                 className="px-4 py-2 rounded-lg bg-[#6366f1] text-white font-semibold shadow hover:bg-[#4211d4] transition-all duration-150 mb-2"
               >
-                {showReply ? "Cancel" : "Reply to this Zync"}
+                {showReply ? "Cancel" : "Reply to this Synov"}
               </button>
               <form
                 className={`w-full flex flex-col gap-2 transition-all duration-300 ${showReply ? '' : 'opacity-0 pointer-events-none h-0 overflow-hidden'}`}

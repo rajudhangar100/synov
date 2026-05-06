@@ -86,7 +86,7 @@ export default function Home() {
                     aria-label="Create a Zync"
                     onClick={() => window.location.href = '/zync'}
                   >
-                    <span className="truncate">Create a Zync</span>
+                    <span className="truncate">Create a Synov</span>
                   </motion.button>
                 </motion.div>
         </div>
@@ -135,7 +135,7 @@ export default function Home() {
                       onClick={() => window.location.href = '/zync'}
                       className="text-[#6366f1] hover:text-[#4211d4] font-medium transition-colors"
                     >
-                      Create New Zync →
+                      Create New Synov →
                     </button>
                   </div>
                 </motion.div>
@@ -288,7 +288,7 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <p className="text-[#a49db9] text-base font-normal leading-normal">&copy; 2025 Charan Vengala — Built Zync for the fastest drop-to-share on the web.</p>
+              <p className="text-[#a49db9] text-base font-normal leading-normal">&copy; 2026 Raju Dhangar — Built Synov for the fastest drop-to-share on the web.</p>
       </footer>
     </div>
         </div>

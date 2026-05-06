@@ -1,10 +1,10 @@
-# Zync
+# Synov
 
 A straightforward way to share notes, links, and code. No sign-up, no clutter. Just type, share, and move on.
 
 ## 🌐 Live Demo
 
-[Demo Link](https://zync.vercel.app) <!-- Replace with your actual URL if different -->
+[Demo Link](https://synov.vercel.app) <!-- Replace with your actual URL if different -->
 
 ## Features
 
@@ -28,8 +28,8 @@ A straightforward way to share notes, links, and code. No sign-up, no clutter. J
 To run this project locally:
 
 ```bash
-git clone https://github.com/1012Charan/ZYNC.git
-cd ZYNC
+git clone https://github.com/rajudhangar100/synov.git
+cd SYNOV
 npm install
 npm run dev
 ```
@@ -39,7 +39,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Project Structure
 
 ```
-zync-nextjs/
+synov-nextjs/
 ├── src/
 │   ├── app/         # Main app pages & API routes
 │   ├── components/  # Reusable UI components
@@ -60,7 +60,7 @@ zync-nextjs/
 - [ ] Real-time replies
 - [ ] AI suggestions (future)
 
-## Why Zync?
+## Why Synov?
 
 Built to make sharing quick and easy, especially for temporary or one-off content. Useful for students, teams, or anyone who wants a simple way to share something without extra steps.
 

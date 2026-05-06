@@ -281,7 +281,7 @@ export default function DropPage() {
         transition={{ duration: 0.6 }}
         className="text-white text-2xl sm:text-3xl font-bold mb-2 text-center"
       >
-        Your Zync is Ready ⚡
+        Your Synov is Ready ⚡
         </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 10 }}
@@ -370,7 +370,7 @@ export default function DropPage() {
                     type="submit"
                     disabled={loading}
                   >
-                    {loading ? "Creating..." : "Zync Now"}
+                    {loading ? "Creating..." : "Sync Now"}
                   </motion.button>
                 </form>
               ) : (
@@ -479,7 +479,7 @@ export default function DropPage() {
                     type="submit"
                     disabled={loading}
                   >
-                    {loading ? "Creating..." : "Zync Now"}
+                    {loading ? "Creating..." : "Synov Now"}
                   </motion.button>
                 </form>
               ) : (
@@ -594,7 +594,7 @@ export default function DropPage() {
                     type="submit"
                     disabled={loading}
                   >
-                    {loading ? "Creating..." : "Zync Now"}
+                    {loading ? "Creating..." : "Synov Now"}
                   </motion.button>
                 </form>
               ) : (
@@ -604,7 +604,7 @@ export default function DropPage() {
                   transition={{ duration: 0.25 }}
                   className="flex flex-col items-center gap-4"
                 >
-                  <div className="text-green-400 text-2xl font-bold">Zync Ready!</div>
+                  <div className="text-green-400 text-2xl font-bold">Synov Ready!</div>
                   <div className="w-full flex flex-col items-center gap-2">
                     <div className="bg-white/10 rounded-lg px-4 sm:px-8 py-3 sm:py-4 text-white text-center break-all select-all">
                       {accessKey 
@@ -702,7 +702,7 @@ export default function DropPage() {
               window.location.href = "/zync";
             }
           }}
-          aria-label={fabPath === "/zync" ? "Back to Home" : "Start a Zync"}
+          aria-label={fabPath === "/zync" ? "Back to Home" : "Start a Sync"}
           className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 sm:hidden bg-gradient-to-r from-[#6366f1] to-[#4211d4] text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 text-3xl font-bold focus:outline-none focus:ring-2 focus:ring-[#6366f1] animate-bounce"
           style={{ boxShadow: '0 4px 24px 0 #6366f155', transition: 'background 0.2s', bottom: 'calc(20px + env(safe-area-inset-bottom, 0px))' }}
         >
